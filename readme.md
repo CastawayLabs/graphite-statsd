@@ -1,6 +1,6 @@
 # Docker Image for Graphite
 
-## Deploy Graphite & Statsd with a single click command
+## Deploy Graphite & Statsd with a single command
 
 Graphite & Statsd are difficult to orchestrate.
 This Docker image will help you get up & running quickly.
