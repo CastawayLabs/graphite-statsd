@@ -5,10 +5,14 @@
 Graphite & Statsd are difficult to orchestrate.
 This Docker image will help you get up & running quickly.
 
+Follow this * tutorial *, and you will end up with a similar setup:
+
+![screenshot](screenshot.png)
+
 ## Quick Start
 
 ```sh
-docker run -d --name graphite -p 8080:80 -p 2003:2003 -p 8125:8125/udp castawaylabs/graphite-statsd-docker
+docker run -d --name graphite -p 8080:80 -p 2003:2003 -p 8125:8125/udp castawaylabs/graphite-statsd
 ```
 
 This starts a Docker container named: **graphite**

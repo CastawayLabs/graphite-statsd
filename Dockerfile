@@ -44,7 +44,7 @@ RUN pip install txAMQP==0.6.2
 RUN git clone -b 0.9.12 https://github.com/graphite-project/graphite-web.git /usr/local/src/graphite-web
 RUN git clone -b 0.9.12 https://github.com/graphite-project/whisper.git /usr/local/src/whisper
 RUN git clone -b 0.9.12 https://github.com/graphite-project/carbon.git /usr/local/src/carbon
-RUN git clone -b v0.6.0 https://github.com/etsy/statsd.git /opt/statsd
+RUN git clone -b v0.7.2 https://github.com/etsy/statsd.git /opt/statsd
 
 # Install Graphite
 WORKDIR /usr/local/src/graphite-web
