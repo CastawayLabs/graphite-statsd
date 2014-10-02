@@ -32,6 +32,8 @@ This starts a Docker container named: **graphite**
 
 These volumes can be optionally mounted. For whatever reason, if you want to edit the config files, i suggest you fork this repo and edit conf/*.conf directly, rebuilding the image as you wish.
 
+Alternatively, you can mount files to overwrite the defaults.. See the `Dockerfile` for more info (look for ADD statements)
+
 | Container             |
 | --------------------- |
 | /var/log              |
